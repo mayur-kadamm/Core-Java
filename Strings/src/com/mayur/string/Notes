@@ -1,0 +1,28 @@
+String -
+It's group of characters is called as string 
+
+We have 3 types of predefined Classes for string
+	1. String Class
+	2. StringBuffer Class
+	3. StringBuilder Class 
+	
+1) String Class -
+			- It's Immutable / Unchangeable / Value can't change
+			- Slow for modifications
+			- Stored in String Pool
+			- Thread-unsafe
+			
+2) StringBuffer Class -
+			- Mutable object
+			- Slow (synchronized)
+			- Thread-safe
+			- Good for multi-threading
+			
+			
+3) StringBuilder Class - 
+			- Mutable object
+			- Fast (not synchronized)
+			- Thread-unsafe
+			- Good for single-threading
+			 
+				 
