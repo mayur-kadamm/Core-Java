@@ -1,0 +1,21 @@
+Task 1: Vehicle Hierarchy (Basic Inheritance)
+
+🎯 Goal:
+Understand single and multilevel inheritance + method overriding.
+
+💡 Description:
+            Create a base class Vehicle and subclasses:
+                                Car,Bike,ElectricCar (extends Car)
+
+
+ Each class should have:
+ Common method: startEngine()
+ Subclass-specific method: e.g., chargeBattery() for ElectricCar.
+
+
+Override startEngine() in each class and print different messages.
+🧮 Example:
+Vehicle v = new ElectricCar();
+v.startEngine(); // Output: "Electric car starting silently..."
+
+✅ Learned Concept: Basic inheritance, overriding, runtime polymorphism.
