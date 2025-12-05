@@ -36,7 +36,8 @@ public class StringMethods {
 	}
 	public static void main(String[] args) {
 				 
-				new StringMethods().stringMethods();
+			StringMethods sm =	new StringMethods();
+			sm.stringMethods();
 	}
 
 }
